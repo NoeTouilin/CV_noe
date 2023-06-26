@@ -1,13 +1,25 @@
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1{
 	text-align: center;
 	color: #8A9AA8;
-	font-size: xx-large;
+	font-size: 500%;
+	padding: 150px;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 main{
+	height: 100%;
 	width: 70%;
 	background-color: paleturquoise;
 }
 aside{
+	height: 100%;
 	width: 30%;
 	background-color: lightskyblue;
 }
@@ -34,17 +46,41 @@ body{
 }
 .section-main{
 	height: 33%;
-}
-.footer-orga{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 ul{
-	width: 30%;
+	width: 100%;
 }
 h3{
+	margin: 0;
+	padding: 0;
 	text-align: center;
 }
-.fa-laptop{
-	width: 20%;
+.fa-briefcase, .fa-graduation-cap, .fa-laptop{
+	font-size: 200%;
+	color: white;
+	border: solid;
+	border-color: #8A9AA8;
+	border-radius: 50%;
+	height: 75%;
+	padding: 15px;
+	background-color: #8A9AA8;
+}
+h2{
+	font-size: 200%;
+}
+.div_stage, .div_p_stage, .p_stage, .mainh2{
+	margin: 30px;
+}
+.p_stage{
+	font: bold;
+}
+.mainh2{
+	margin-top: 0;
+}
+.titre{
+	text-align: center;
+	color: #8A9AA8;
+	margin: 20px;
 }
