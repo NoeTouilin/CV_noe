@@ -70,7 +70,7 @@ h3{
 h2{
 	font-size: 200%;
 }
-.div_stage, .div_p_stage, .p_stage, .mainh2{
+.div_stage, .div_p_stage, .p_stage, .mainh2, .education{
 	margin: 30px;
 }
 .p_stage{
@@ -83,4 +83,10 @@ h2{
 	text-align: center;
 	color: #8A9AA8;
 	margin: 20px;
+}
+.education{
+	flex-direction: column;
+}
+.li_education{
+	margin-left: 15px;
 }
