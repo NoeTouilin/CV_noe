@@ -57,7 +57,7 @@ h3{
 	padding: 0;
 	text-align: center;
 }
-.fa-briefcase, .fa-graduation-cap, .fa-laptop{
+.fa-briefcase, .fa-graduation-cap, .fa-laptop, .fa-envelope{
 	font-size: 200%;
 	color: white;
 	border: solid;
@@ -89,4 +89,15 @@ h2{
 }
 .li_education{
 	margin-left: 15px;
+}
+.footer_h2{
+	text-align: center;
+}
+.div_footer{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.text_footer{
+	margin-top: 15px;
 }
